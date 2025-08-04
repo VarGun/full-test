@@ -3,7 +3,7 @@ import type {Product} from "../types/Product.ts";
 
 const api = axios.create({
   // .env 파일로 이동 필요, 배포시 별도 관리 필요
-  baseURL: 'http://localhost:8080/api',
+  baseURL: 'http://3.38.222.38/api',
   headers: {
     'Content-Type': 'application/json',
   },
