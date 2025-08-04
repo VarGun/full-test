@@ -7,6 +7,7 @@ import ProductDetail from "./components/ProductDetail.tsx";
 import Home from "./components/Home.tsx";
 
 function App() {
+  console.log('gun')
   return (
       <div className="min-h-screen bg-white text-black font-sans">
         <BrowserRouter>
